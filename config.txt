@@ -1,1 +1,1 @@
-vless://d04a8a92-62a8-4a07-8843-37b41d9f2f02@sub.zalupa3d.mooo.com:443?encryption=none&fp=chrome&pbk=VhcJJMJULDewDg_WFbLKVCp2KodfLy4mB-6qgMRA7jk&security=reality&sid=c1&sni=www.amd.com&spx=%2FJ6EbEG28NaQixXU&type=tcp#%F0%9F%87%AB%F0%9F%87%AEFinlyandiya
+vless://4db876b6-135c-4bc2-9ded-f8a002b3a5cf@sub.zalupa3d.mooo.com:57396?type=tcp&encryption=none&security=reality&pbk=VhcJJMJULDewDg_WFbLKVCp2KodfLy4mB-6qgMRA7jk&fp=chrome&sni=www.amd.com&sid=3975286b6c1b3b&spx=%2F#VPN

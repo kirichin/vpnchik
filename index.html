@@ -1,25 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>VPN Import</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подключение VPN</title>
     <style>
-        body { font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; background: #121212; color: white; }
-        .btn { background: #3b82f6; color: white; padding: 20px 40px; text-decoration: none; border-radius: 15px; font-weight: bold; font-size: 20px; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; background: #0f172a; color: white; text-align: center; }
+        .card { background: #1e293b; padding: 40px; border-radius: 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.3); border: 1px solid #334155; max-width: 320px; }
+        h1 { font-size: 24px; margin-bottom: 10px; color: #3b82f6; }
+        p { color: #94a3b8; margin-bottom: 30px; font-size: 14px; line-height: 1.5; }
+        .btn { background: #3b82f6; color: white; padding: 16px 32px; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 16px; display: inline-block; transition: all 0.2s; box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4); }
+        .btn:active { transform: scale(0.98); background: #2563eb; }
     </style>
 </head>
 <body>
-    <a id="go" class="btn" href="hiddify://import/vless%3A%2F%2F32107482-3512-4ef3-a0a5-58e2ed974469%40sub.zalupa3d.mooo.com%3A443%3Ftype%3Dtcp%26encryption%3Dnone%26security%3Dreality%26pbk%3DVhcJJMJULDewDg_WFbLKVCp2KodfLy4mB-6qgMRA7jk%26fp%3Dchrome%26sni%3Dwww.amd.com%26sid%3D3975286b6c1b3b%26spx%3D%252F%23Finlyandiya">
-        НАЖМИ ДЛЯ ИМПОРТА
-    </a>
+
+    <div class="card">
+        <h1>Настройка Hiddify</h1>
+        <p>Нажмите кнопку ниже, если приложение не открылось автоматически</p>
+        
+        <a id="vpnLink" class="btn" href="hiddify://import/vless://d04a8a92-62a8-4a07-8843-37b41d9f2f02@sub.zalupa3d.mooo.com:443?encryption=none&fp=chrome&pbk=VhcJJMJULDewDg_WFbLKVCp2KodfLy4mB-6qgMRA7jk&security=reality&sid=8a4f38a0&sni=www.amd.com&spx=%2FMgXIivJAsl43Bsr&type=tcp#%F0%9F%87%AB%F0%9F%87%AEFinlyandiya">
+            ДОБАВИТЬ СЕРВЕР
+        </a>
+    </div>
 
     <script>
-        // Авто-клик через секунду после загрузки
         window.onload = function() {
+            // Задержка 1 секунда, чтобы браузер успел отрисовать страницу и разрешить переход
             setTimeout(function() {
-                window.location.href = document.getElementById('go').href;
+                var link = document.getElementById('vpnLink').href;
+                window.location.href = link;
             }, 1000);
         };
     </script>
+
 </body>
 </html>
